@@ -1,1 +1,1 @@
-# Triagem em Fuzzt
+# Triagem em Fuzzy
