@@ -1,1 +1,1 @@
-# DiagnosticoInteligenteSaude
+# Triagem em Fuzzt
