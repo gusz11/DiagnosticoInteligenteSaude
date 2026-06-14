@@ -1,0 +1,90 @@
+{
+  "comparison": {
+    "agreement_rate": 0.578,
+    "fuzzy_accuracy": 0.5713,
+    "ml_accuracy": 0.9547,
+    "per_class_agreement": {
+      "atencao": 0.6521,
+      "normal": 0.5094,
+      "risco": 0.689
+    }
+  },
+  "dataset": {
+    "class_balance_remapped": {
+      "atencao": 4484,
+      "normal": 9924,
+      "risco": 3592
+    },
+    "rows": 18000
+  },
+  "integration": {
+    "accuracy_integrated": 0.6907,
+    "accuracy_ml": 0.9547,
+    "delta_per_class": {
+      "atencao": {
+        "delta_f1": -0.5008,
+        "delta_recall": -0.5041,
+        "f1_integrated": 0.409,
+        "f1_ml": 0.9098,
+        "recall_integrated": 0.4219,
+        "recall_ml": 0.926
+      },
+      "normal": {
+        "delta_f1": -0.2257,
+        "delta_recall": -0.25,
+        "f1_integrated": 0.7436,
+        "f1_ml": 0.9693,
+        "recall_integrated": 0.7148,
+        "recall_ml": 0.9648
+      },
+      "risco": {
+        "delta_f1": -0.0731,
+        "delta_recall": 0.0035,
+        "f1_integrated": 0.8966,
+        "f1_ml": 0.9697,
+        "recall_integrated": 0.9647,
+        "recall_ml": 0.9611
+      }
+    },
+    "macro_f1_integrated": 0.6831,
+    "macro_f1_ml": 0.9496
+  },
+  "ml": {
+    "accuracy": 0.955,
+    "feature_importances": {
+      "age": 0.0749,
+      "arrival_mode_ambulance": 0.0053,
+      "arrival_mode_walk_in": 0.0157,
+      "arrival_mode_wheelchair": 0.0028,
+      "body_temperature": 0.151,
+      "chronic_disease_count": 0.03,
+      "heart_rate": 0.1125,
+      "oxygen_saturation": 0.0959,
+      "pain_level": 0.4158,
+      "previous_er_visits": 0.0328,
+      "systolic_blood_pressure": 0.0632
+    },
+    "macro_f1": 0.9493,
+    "per_class": {
+      "atencao": {
+        "f1": 0.9108,
+        "precision": 0.9053,
+        "recall": 0.9164,
+        "support": 897
+      },
+      "normal": {
+        "f1": 0.9712,
+        "precision": 0.9737,
+        "recall": 0.9688,
+        "support": 1985
+      },
+      "risco": {
+        "f1": 0.9659,
+        "precision": 0.9665,
+        "recall": 0.9652,
+        "support": 718
+      }
+    },
+    "weighted_f1": 0.9551
+  }
+}
